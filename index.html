@@ -10,24 +10,13 @@
     <style>
         .navbar-wrapper {
             display: flex;
-            background-color: aquamarine;
+            justify-content: center;
+            align-items: center;
+            background-color: darkslategray;
             width: 100vw;
             height: 60px;
             margin: -8px 0px 0px -8px;
         }
-
-        .navbar-wrapper > .links-wrapper {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            width: inherit;
-        }
-
-        .navbar-wrapper > .links-wrapper a {
-            text-decoration: none;
-        }
-
 
 
 
@@ -39,11 +28,16 @@
 
 <body>
     <div class="navbar-wrapper">
-        <div class="links-wrapper">
-            <div class="myname">
-                <h1><i class="fa-regular fa-hand-pointer"></i>MyName</h1>
+        <div class="left-column">
+            <div class="logo-branding">
+                <div class="myname">
+                    <a href="#">MyName</a>
+                </div>
             </div>
+        </div>
 
+        <div class="center-column">
+            <div class="links-wrapper">
                 <div class="link1">
                     <a href="#">Link 1</a>
                 </div>
@@ -51,11 +45,16 @@
                 <div class="link2">
                     <a href="#">Link 2</a>
                 </div>
-                
+            </div>
+        </div>
+
+        <div class="right-column">
+            <div class="links-wrapper">
                 <div class="link3">
                     <a href="#">Link 3</a>
                 </div>
-        </div>   
+            </div>
+        </div>
     </div>
 </body>
 </html>

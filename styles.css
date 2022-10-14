@@ -26,9 +26,24 @@ a {
     width: 45vw;
 }
 
+.center-column > .links-wrapper {
+    display: flex;
+    width: inherit;
+}
+
 .right-column {
     display: flex;
     width: 45vw;
 }
 
+.right-column > .links-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    width: inherit;
+}
 
+.links-wrapper a {
+    background-color: #1c2f2f;
+    color: white;
+    padding: 21px 40px;
+}

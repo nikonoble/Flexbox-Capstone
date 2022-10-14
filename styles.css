@@ -1,7 +1,7 @@
 
 .navbar-wrapper {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     background-color: darkslategray;
     width: 100vw;
@@ -15,8 +15,20 @@ a {
     text-decoration: none;
 }
 
+.left-column {
+    display: flex;
+    justify-content: center;
+    width: 10vw;
+}
 
+.center-column {
+    display: flex;
+    width: 45vw;
+}
 
-
+.right-column {
+    display: flex;
+    width: 45vw;
+}
 
 
